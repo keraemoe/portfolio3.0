@@ -1,0 +1,24 @@
+@import '../../assets/sass/lib/mixin';
+.markup {
+  display: flex;
+  flex-direction: column;
+  li {
+    list-style: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--grey-color);
+    font-family: 'JetBrains Mono', monospace;
+    line-height: 30px;
+    &:nth-last-child(-n + 9) {
+      filter: blur(0.8px);
+    }
+    &:nth-last-child(-n + 3) {
+      filter: blur(1px);
+    }
+  }
+}
+@include sm {
+  .markup {
+    display: none;
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "main": {
+    "subtitle": "Hi! I'm ",
+    "name": "Tilek",
+    "description": "Here you can get acquainted with my portfolio, view my projects, learn about me and my technology stack.",
+    "btnShow": "View stack",
+    "btnHide": "Hide stack"
+  },
+  "about": {
+    "aboutDescription": "My name is Tilek. I live in Kyrgyzstan. I started my career in IT as a freelance web designer, after that I started to study layout, delve into writing code, I liked it and I realized that I want to continue doing this. I switched completely to the frontend, began to master new technologies, found my first job, where I rose well in skill, gained experience as a team worker. He also worked on team projects, such as online stores, startups, small businesses, landing pages, corporate websites. Currently, I continue to improve my knowledge, this helps me write more efficient, understandable and easily maintainable code. I strive to keep abreast of the latest trends and developments in the IT world, so I constantly study new technologies and approaches to development. I'm also open to interesting offers, whether it's a full-time job or project work. You can contact me, always in touch :)",
+    "softSkills": "Organization and planning of working hours, analytical thinking, the desire to learn and develop, communication skills, ability to work in a team, stress tolerance"
+  },
+  "notFound": {
+    "descr": "The page was not found, but there are more interesting pages"
+  },
+  "navbar": {
+    "home": "_home",
+    "about": "_about me",
+    "projects": "_projects"
+  },
+  "buttons": {
+    "cardBtn": "View project",
+    "backBtn": "Back"
+  },
+  "roadmap": {
+    "years": {
+      "years1": "%d year",
+      "years2": "%d years",
+      "years3": "%d years"
+    },
+    "months": {
+      "months1": "%d month",
+      "months2": "%d months",
+      "months3": "%d months"
+    },
+    "weeks": {
+      "weeks1": "%d week",
+      "weeks2": "%d weeks",
+      "weeks3": "%d weeks"
+    },
+    "days": {
+      "days1": "%d day",
+      "days2": "%d days",
+      "days3": "%d days"
+    }
+  },
+  "experience": {
+    "responsibilities": "Job responsibilities:",
+    "stack": "Technologies used:",
+    "fisrt": {
+      "title": "Light Code",
+      "subtitle": "Assistant mentor",
+      "etc": "html, css, js, python",
+      "date": "From October 2022 to December 2023",
+      "dutiesList": {
+        "dutie1": "Bug fixing",
+        "dutie2": "Writing logic",
+        "dutie3": "Refactoring the code to improve its optimization and maintainability",
+        "dutie4": "Pyton, Js and html/css basics"
+      }
+    },
+    "startup": {
+      "title": "UNO.kg",
+      "subtitle": "Project, teamwork on the design of an online store website that provides online registration for a wide range of services",
+      "etc": "Next, typescript, scss , antd, jwt, git, mui, framer motion and  other third-party libraries",
+      "date": "From December 2023 to February 2023",
+      "dutiesList": {
+        "dutie1": "Creating a design for a project",
+        "dutie2": "Writing application logic",
+        "dutie3": "Refactoring the code to improve its optimization and maintainability",
+        "dutie4": "Layout of an adaptive and cross-browser site according to the layout",
+        "dutie5": "Working with a large number of API",
+        "dutie6": "Collaborative work with designers, backends, product managers"
+      }
+    },
+    "royal": {
+      "title": "Royal Construction",
+      "subtitle": "My first serious job, where I was initially in a layout role, then moved fully into a frontend-developer position, doing various shuffles",
+      "etc": "HTML5, SCSS, JS, i18next, React, Redux-toolkit, git, gitLab, framer motion and other third-party libraries",
+      "date": "From February 2023 to March 2023",
+      "dutiesList": {
+        "dutie1": "Participation in planning and holding meetings with the development team",
+        "dutie2": "Refactoring the code to improve its optimization and maintainability",
+        "dutie3": "Layout of an adaptive and cross-browser site according to the layout",
+        "dutie4": "Collaboration with designers, backends, product managers"
+      }
+    },
+    "company": {
+      "title": "SNOWFLAKE",
+      "subtitle": "My first and long-term employment with the company",
+      "etc": "HTML5, SCSS, JS, TypeScript, React Native, Flutter, Dart, React, Redux-toolkit, git, gitLab, mui, antd, tailwind, framer motion and other third-party libraries",
+      "date": "С февраля 2023 по июля 2023",
+      "dutiesList": {
+        "dutie1": "Participating in planning and conducting meetings with the development team",
+        "dutie2": "Conducting code refactoring to improve code optimization and maintainability",
+        "dutie3": "Layout adaptive and cross-browser website layout according to the layout",
+        "dutie4": "Collaborative work with designers, backends, product managers",
+        "dutie5": "Working with a large number of APIs",
+        "dutie6": "Working on large commercial projects",
+        "dutie7": "Pet projects."
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+@import '../../assets/sass/lib/mixin';
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+.links {
+  display: flex;
+  align-items: center;
+}
+.link,
+.link_active {
+  color: var(--white-color);
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'JetBrains Mono', monospace;
+  letter-spacing: 1px;
+  border: 1px solid var(--grey-opacity-color);
+  padding: 10px 30px;
+  width: 230px;
+  text-align: center;
+  border-top: 1px solid transparent;
+}
+.link_active {
+  border: none;
+  border-top: 1px solid var(--accent-color);
+  color: var(--accent-color);
+  background-color: var(--black-color);
+}
+.tools {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+@include lg {
+  .link,
+  .link_active {
+    width: 180px;
+  }
+  .navbar {
+    gap: 30px;
+  }
+  .tools {
+    gap: 30px;
+  }
+}
+@include md {
+  .navbar {
+    display: none;
+    visibility: hidden;
+  }
+}
