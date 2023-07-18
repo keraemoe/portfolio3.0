@@ -48,7 +48,7 @@ export const About = () => {
   const MY_WORKS: IMyWorks[] = [
     {
       id: 1,
-      title: t('experience.place.title'),
+      title: t('experience.first.title'),
       subtitle: t('experience.first.subtitle'),
       stack: t('experience.first.etc'),
       date: t('experience.first.date'),
@@ -134,7 +134,6 @@ export const About = () => {
                   About.tsx
                 </div>
               </div>
-
               <div className="about__block-descr">
                 <Markup />
                 <div className="about__column">
